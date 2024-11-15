@@ -17,8 +17,6 @@ if(CMAKE_BUILD_TYPE STREQUAL Release OR CMAKE_BUILD_TYPE STREQUAL RelWithDebInfo
 endif()
 
 list(APPEND WASMEDGE_CFLAGS
-  -Wall
-  -Wextra
   -Werror
   -Wno-error=pedantic
 )
